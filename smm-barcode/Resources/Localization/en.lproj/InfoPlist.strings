@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  smm-barcode
+
+  Created by Daniil on 15.03.2023.
+  
+*/
+
+"NSUserTrackingUsageDescription" = "Your data will be used for developer's marketing tracking and to deliver personalized ads";
+"NSCameraUsageDescription" = "Barcode Scanner uses your camera to scan QR codes";
+"NSFaceIDUsageDescription" = "In order to unlock our app, we need access to your device's biometry feature.";
+"NSPhotoLibraryUsageDescription" = "To access your photos and so you can parse QR code.";

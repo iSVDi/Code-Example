@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="QaJ-oF-5Ke">
+                                <rect key="frame" x="158" y="387.66666666666669" width="77" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="LaF-5S-5Yj"/>
+                                    <constraint firstAttribute="height" constant="77" id="UPf-Z3-wba"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreenBarcodeApps" translatesAutoresizingMaskIntoConstraints="NO" id="q6w-rK-TVx">
+                                <rect key="frame" x="108.66666666666669" y="759" width="176" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="TEX-b8-aXo"/>
+                                    <constraint firstAttribute="height" constant="17" id="hXd-Yc-7MU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QaJ-oF-5Ke" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IFn-jQ-g3D"/>
+                            <constraint firstItem="q6w-rK-TVx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="L43-Yf-BDU"/>
+                            <constraint firstItem="QaJ-oF-5Ke" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XNC-bG-gcN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="q6w-rK-TVx" secondAttribute="bottom" constant="42" id="ixi-Hp-tgq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchscreenBarcodeApps" width="45" height="4.6666665077209473"/>
+        <image name="launchscreenLogo" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

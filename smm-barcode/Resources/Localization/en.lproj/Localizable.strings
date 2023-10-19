@@ -1,0 +1,162 @@
+/* 
+ Localizable.strings
+ smm-barcode
+ 
+ Created by Daniil on 06.03.2023.
+ 
+ */
+
+"CancelTitle" = "Cancel";
+
+//ButtonTitles
+
+"ContinueButtonTitle" = "Continue";
+"RestoreButtonTitle" = "Restore";
+"OkButtonTitle" = "OK";
+"DoneButtonTitle" = "Done";
+"CloseButtonTitle" = "Close";
+"AllScans" = "All Scans";
+"BarcodesOnly" = "Barcodes only";
+"QrCodesOnly" = "QR-codes only";
+"DocumentsOnly" = "Documents only";
+"Icons" = "Icons";
+"List" = "List";
+"Edit" = "Edit";
+"ScanProduct" = "Scan Product";
+
+//Trial
+"SubscriptionRestoreSuccessMessage" = "Your subscription has been successfully restored";
+"PaidPromoFeature1" = "Scan barcodes";
+"PaidPromoFeature2" = "Scan products";
+"PaidPromoFeature3" = "Search in database";
+"PaidPromoNoAdsNoLimits" = "No ads & no limits";
+"PaidPromoFeature1Subtitle" = "Hide your photos and videos\nin a secure vault with a PIN-lock";
+"PaidPromoFeature2Subtitle" = "Сreate hidden address books\nfor your contacts";
+"PaidPromoNoAdsNoLimitsSubtitle" = "Get the best experience\nwithout ads and limits";
+"TermsOfUsage" = "Terms of Usage";
+"PrivacyPolicy" = "Privacy Policy";
+"TrialSlideHeaderTitle" = "Unlimited Access\nTo All Features";
+
+//Alerts
+"ErrorAlertTitle" = "Error";
+"InfoAlertTitle" = "Info";
+"AskOpenSettingsTitle" = "Open settings?";
+"GoToSettingsTitle" = "Go to settings";
+"YesTitle" = "Yes";
+"NoTitle" = "No";
+"AreYouSure" = "Are you sure?";
+"DeleteConfirmationTitle" = "Are you sure you want to remove scan?";
+"DeleteTitle" = "Delete";
+
+//Subscriptions
+"ThreeDaysFreeCellTitle" = "3 Days Free";
+"MonthSubCellTitle" = "1 Month";
+"YearSubCellTitle" = "1 Year";
+"MonthlyCalculatedPrice" = "%@ / month";
+"YearlyCalculatedPrice" = "%@ / year";
+"MonthSubCellSubtitle" = "then %@ / month";
+"YearSubCellSubtitle" = "then %@ / year";
+"UnknownErrorTitle" = "Unknown error";
+"SubscriptionRestoreNoActiveSubMessage" = "You have no active subscriptions";
+
+//Intro
+"IntroFirstSlideDescription" = "Scan barcodes and\ncompare prices";
+"IntroSecondSlideDescription" = "Get details from 900,000+\nproducts in our database";
+"IntroThirdSlideDescription" = "Help us improve your app experience\nby allowing us to track ads";
+
+//Root
+"GalleryTitle" = "Gallery";
+"SettingsTitle" = "Settings";
+"HistoryTitle" = "History";
+"LightTitle" = "Light";
+"ProductsTitle" = "Products";
+
+//Settings
+"PremiumTitle" = "Premium";
+"FreeTitle" = "Free";
+"LicenseTitle" = "License";
+"AccountUppercasedTitle" = "ACCOUNT";
+"SubscriptionsTitle" = "Subscriptions";
+"ContactSupportTitle" = "Contact support";
+"ShareOurAppTitle" = "Share our app";
+"GeneralUppercasedTitle" = "GENERAL";
+"SharingString" = "Hey, check this app: %@";
+"HtmlSharingString" = "<html>Hey, check this app: <a href=\"%@\">App Store</a></html>";
+"SharingSubjectTitle" = "Photo Vault app for iPhone";
+
+"SubscriptionsDescriptionTitle" = "Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase. The subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period.\n\nYour account will be charged for renewal for the amount of your current subscription within 24-hours prior to the end of the current period. All costs for subscriptions are mentioned above.\n\nAny unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable. Payment will be charged to iTunes Account at confirmation of purchase.";
+"NumberOfNumberString" = "%d of %d";
+"BarcodeLimitTitle" = "Barcode scans limit";
+"ProductLimitTitle" = "Products scans limit";
+"DocumentLimitTitle" = "Document scans limit";
+"ChangeSubscriptionTitle" = "Are you sure you want to change your subscription?";
+
+//Scan
+"ScannerTitle" = "Scanner";
+"ScanResult" = "Scan result";
+"PlaceTheBarcodeInACameraArea" = "Place the barcode in a camera area";
+"NoBarcodeRecognizedTryAnotherPhoto" = "No barcode recognized, try another photo.";
+
+//ScannerMode
+"BarcodeScanner" = "Barcode scanner";
+"ProductScanner" = "Product scanner";
+"DocumentScanner" = "Documents scanner";
+"ImportFromGallery" = "Import from Gallery";
+"ImportFromCloud" = "Import from iCloud";
+
+//ScanResult
+"ScannedResultTitle" = "Scanned result";
+"Element" = "Element";
+"Code" = "Code";
+"Data" = "Data";
+"QrResult" = "QR";
+"BarcodeResult" = "Barcode";
+"Pdf" = "PDF";
+"CodeInformation" = "Code information";
+"DocumentPreview" = "Document preview";
+"ClipboardTitle" = "%@ copied to the clipboard";
+"ShareAsImage" = "Share as Image";
+"ShareAsText" = "Share as Text";
+"Text" = "Text";
+"Website" = "Website";
+
+
+//Search
+"SearchTitle" = "Search";
+"Google" = "Google";
+"Amazon" = "Amazon";
+"Aliexpress" = "Aliexpress";
+"Ebay" = "Ebay";
+
+// History
+"TodayTitle" = "TODAY";
+"YesterdayTitle" = "YESTERDAY";
+"Delete" = "Delete";
+"Copy" = "Copy";
+"Share" = "Share";
+
+// Product
+"ProductScanner" = "Product scanner";
+"ProductScannerEmptyPreviewTitle" = "Scan product barcode and get\ndetailed food nutrient report";
+"FoodInfo" = "Food Info";
+"NutrientsTitle" = "Nutrients";
+"MicronutrientsTitle" = "Micronutrients";
+"ScannedResult" = "Scanned result";
+"DishType" = "Dish Type";
+"Category" = "Category";
+"FoodInformation" = "Food information";
+
+// ProductScanResult
+"SomethingWentWrong" = "Something went wrong";
+"TryAgain" = "Try again";
+
+// Last
+"NothingFoundLabelTitle" = "Nothing found";
+
+// ErrorDescription
+"FailedImageProcessing" = "Failed image processing";
+"FailedPickedImageProcessing" = "Failed picked image processing";
+"FailedBarcodeRecognition" = "Failed barcode recognition";
+"FailedDocumentScanSaving" = "Failed document scan saving";
+"CodeWasntFound" = "Code wasn't found";
+"CodeWasntRecognized" = "Code wasn't recognized";

@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.8.0)
+  - AppsFlyerFramework (6.9.1):
+    - AppsFlyerFramework/Main (= 6.9.1)
+  - AppsFlyerFramework/Main (6.9.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PKHUD (5.3.0)
+  - RSBarcodes_Swift (5.2.0)
+  - SwiftyStoreKit (0.16.1)
+  - TinyConstraints (4.0.2)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - AppsFlyerFramework (= 6.9.1)
+  - FMDB (= 2.7.5)
+  - Moya (~> 15.0.0)
+  - PKHUD (= 5.3.0)
+  - RSBarcodes_Swift (from `https://github.com/yeahdongcn/RSBarcodes_Swift`, commit `fde53070cdf5c5fde92697d33512161486cc37b9`, branch `master`)
+  - SwiftyStoreKit (= 0.16.1)
+  - TinyConstraints (= 4.0.2)
+  - Toast-Swift (= 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppsFlyerFramework
+    - FMDB
+    - Moya
+    - PKHUD
+    - SwiftyStoreKit
+    - TinyConstraints
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  RSBarcodes_Swift:
+    :branch: master
+    :commit: fde53070cdf5c5fde92697d33512161486cc37b9
+    :git: https://github.com/yeahdongcn/RSBarcodes_Swift
+
+CHECKOUT OPTIONS:
+  RSBarcodes_Swift:
+    :commit: fde53070cdf5c5fde92697d33512161486cc37b9
+    :git: https://github.com/yeahdongcn/RSBarcodes_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  AppsFlyerFramework: dc9aa675faa8e1a2ed40fb295d3c5408ee2b972a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  RSBarcodes_Swift: 416d11923d8dfff0e038a853d727d6c8254cb527
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 8f7da7aa7c32fa8623aa3151c3d9f45670b5d4b1
+
+COCOAPODS: 1.13.0
